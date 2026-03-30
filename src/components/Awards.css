@@ -1,0 +1,33 @@
+.awards-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.award-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1.25rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.award-item:hover {
+  border-color: rgba(0, 212, 170, 0.2);
+}
+
+.award-year {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--accent);
+  white-space: nowrap;
+  padding-top: 2px;
+}
+
+.award-text {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}

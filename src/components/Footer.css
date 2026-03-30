@@ -1,0 +1,11 @@
+.site-footer {
+  text-align: center;
+  padding: 3rem 2rem;
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
+.site-footer .accent {
+  color: var(--accent);
+}
